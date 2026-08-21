@@ -5,7 +5,7 @@ Website giới thiệu và danh mục sản phẩm của **Công ty Cổ phần 
 ## 🌟 Tính Năng & Điểm Nổi Bật
 
 - **Song ngữ hoàn chỉnh (VI & EN):** Hỗ trợ đầy đủ 9 trang Tiếng Việt và 9 trang Tiếng Anh tương ứng với chuyển đổi ngôn ngữ 2 chiều tức thì.
-- **Phong cách JSW Steel:** Giao diện công nghiệp nặng cao cấp, màu sắc chủ đạo Navy (`#0b1f3a`) & Đỏ Vina One (`#d9232a`).
+- **Phong cách JSW Steel:** Giao diện công nghiệp nặng cao cấp, màu sắc chủ đạo Navy (`#0b1f3a`) & Xanh Vina One (`#065fb8`).
 - **Fixed Header & Mega Menu:** Thanh điều hướng cố định khi cuộn trang kèm hiệu ứng đổ bóng mượt mà, Mega Menu hiển thị toàn bộ danh mục sản phẩm.
 - **Self-Hosted Local Fonts 100%:** Nạp trực tiếp từ thư mục `fonts/` (`Oswald` cho tiêu đề, `Montserrat` cho nội dung), hỗ trợ đầy đủ tiếng Việt có dấu, 0ms delay, triệt tiêu hoàn toàn hiện tượng nhảy font (FOUT).
 - **Tương thích toàn diện:** Thuần HTML5, Vanilla CSS3 và JavaScript hiện đại, không phụ thuộc thư viện nặng.
