@@ -272,4 +272,79 @@ document.addEventListener('DOMContentLoaded', () => {
       closeMobileMenu();
     }
   });
+
+  // 10. ScrollReveal Animations Configuration
+  if (typeof ScrollReveal !== 'undefined') {
+    const sr = ScrollReveal({
+      origin: 'bottom',
+      distance: '30px',
+      duration: 800,
+      delay: 100,
+      easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+      reset: false,
+      mobile: true,
+      viewFactor: 0.15
+    });
+
+    // Section Titles & Badges
+    sr.reveal('.section-badge, .badge-pill', { delay: 100, distance: '20px', origin: 'bottom' });
+    sr.reveal('.section-title, .page-title', { delay: 150, distance: '25px', origin: 'bottom' });
+    sr.reveal('.section-subtitle, .section-desc, .page-breadcrumb, .page-desc', { delay: 200, distance: '25px', origin: 'bottom' });
+    sr.reveal('.page-hero-content', { delay: 150, distance: '30px', origin: 'bottom' });
+
+    // Split Columns - Left & Right Reveals
+    sr.reveal('.reveal-left, .about-intro-text, .brand-story-text, .factory-content, .contact-info-card, .contact-info-col, .job-overview-card', {
+      origin: 'left',
+      distance: '45px',
+      duration: 900,
+      delay: 150
+    });
+
+    sr.reveal('.reveal-right, .about-intro-img, .brand-story-image, .factory-media, .contact-form-card, .contact-form-col, .job-form-card', {
+      origin: 'right',
+      distance: '45px',
+      duration: 900,
+      delay: 200
+    });
+
+    // Top Reveals (if needed)
+    sr.reveal('.reveal-top', {
+      origin: 'top',
+      distance: '30px',
+      duration: 800,
+      delay: 150
+    });
+
+    // Grid Items & Cards Staggered Animation
+    sr.reveal('.product-card, .category-card, .feature-card, .news-card, .job-card, .award-item, .stat-card, .milestone-card, .value-card, .standard-card, .core-value-card, .history-item', {
+      interval: 100,
+      distance: '30px',
+      duration: 750,
+      origin: 'bottom'
+    });
+
+    // Product Spec Tables & Detail Sections
+    sr.reveal('.table-responsive, .spec-table-card, .product-specs-table, .tech-highlight-card, .doc-download-card', {
+      distance: '30px',
+      duration: 800,
+      delay: 150,
+      origin: 'bottom'
+    });
+
+    // CTA Banners & Floating Promos
+    sr.reveal('.cta-banner, .cta-content, .newsletter-banner, .map-container, .inquiry-banner', {
+      distance: '35px',
+      duration: 850,
+      delay: 150,
+      origin: 'bottom'
+    });
+
+    // Footer Columns
+    sr.reveal('.footer-col', {
+      interval: 80,
+      distance: '20px',
+      duration: 600,
+      origin: 'bottom'
+    });
+  }
 });

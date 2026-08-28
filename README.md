@@ -19,7 +19,8 @@ vinaonesteel-demo/
 │   ├── components.css    # Header, Hero Slider, Tabs, Mega Menu, Cards, Footer
 │   └── fonts.css         # Khai báo @font-face cho font nội bộ
 ├── js/
-│   └── main.js           # Slider tự động, Fixed Header, Counter số liệu, Tabs, Lightbox
+│   ├── scrollreveal.min.js# Thư viện cuộn mượt hiệu ứng ScrollReveal
+│   └── main.js           # Slider tự động, Fixed Header, Counter số liệu, Tabs, Lightbox, ScrollReveal Config
 ├── fonts/                # Các file font .woff2 cục bộ (Oswald, Montserrat)
 ├── en/                   # Toàn bộ 9 trang phiên bản Tiếng Anh
 │   ├── index.html
